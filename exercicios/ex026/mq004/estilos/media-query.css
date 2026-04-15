@@ -23,7 +23,13 @@ Telas grandes: acima de 1200px
     }
 
     main {
+        width: 90vw;
         border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Impressão';
+        text-decoration: overline;
     }
 
     main h1 {
